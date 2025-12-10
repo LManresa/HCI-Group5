@@ -3,24 +3,23 @@
 https://lmanresa.github.io/HCI-Group5
 
 ## File Structure
-
-project-portfolio/
-├─ index.html
-├─ styles.css
-├─ documents/
-│  ├─ Activity 1.pdf
-│  ├─ Activity 2.pdf
-│  ├─ Activity 3.pdf
-│  ├─ Activity 4.pdf
-│  ├─ Activity 5.pdf
-│  └─ prototype.mp4
-├─ images/
-│  ├─ FurniSwap-Logo.png        
-│  └─ contribution-table.png  
-└─ appendix/
-   ├─ contribution-table.png
-   ├─ FurniSwap_SEQ_Responses.xlsx
-   ├─ FurniSwap_SUS_Responses.xlsx
-   ├─ SEQ.docx
-   ├─ SUS.docx
+project-portfolio<br/>
+├─ index.html<br/>
+├─ styles.css<br/>
+├─ documents/<br/>
+│  ├─ Activity 1.pdf<br/>
+│  ├─ Activity 2.pdf<br/>
+│  ├─ Activity 3.pdf<br/>
+│  ├─ Activity 4.pdf<br/>
+│  ├─ Activity 5.pdf<br/>
+│  └─ prototype.mp4<br/>
+├─ images/<br/>
+│  ├─ FurniSwap-Logo.png<br/> 
+│  └─ contribution-table.png<br/>
+└─ appendix/<br/>
+   ├─ contribution-table.png<br/>
+   ├─ FurniSwap_SEQ_Responses.xlsx<br/>
+   ├─ FurniSwap_SUS_Responses.xlsx<br/>
+   ├─ SEQ.docx<br/>
+   ├─ SUS.docx<br/>
    └─ Data-Sources.pdf
