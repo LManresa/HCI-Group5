@@ -1,759 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furniture Exchange Platform</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Submission Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="site" aria-label="Header & quick nav">
+    <div class="site-inner wrap">
+      <div class="brand">
+        <h1 id="top">Project Title</h1>
+        <!-- removed subtitle per request -->
+      </div>
+      <nav aria-label="Section navigation">
+        <a href="#team">Team</a>
+        <a href="#meta">Module</a>
+        <a href="#act1">Activity 1</a>
+        <a href="#act2">2</a>
+        <a href="#act3">3</a>
+        <a href="#act4">4</a>
+        <a href="#act5">5</a>
+        <a href="#act6">6</a>
+      </nav>
+    </div>
+  </header>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">Furniture Exchange Platform</div>
-            <ul class="nav-links">
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#methods">Methods</a></li>
-                <li><a href="#protocol">Protocol</a></li>
-                <li><a href="#interviews">Interviews</a></li>
-                <li><a href="#questionnaire">Questionnaire</a></li>
-                <li><a href="#requirements">Requirements</a></li>
-                <li><a href="#gallery">Slides</a></li>
-                <li><a href="#conclusion">Conclusion</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="hero" class="hero-section">
-        <div class="container">
-            <h1 class="hero-title">Furniture Exchange Platform</h1>
-            <p class="hero-subtitle">Research-led requirements for a shared marketplace that streamlines how dorm
-                residents buy and sell furniture</p>
-            <div class="hero-divider"></div>
-        </div>
+  <main class="wrap" id="content">
+    <!-- Module / Term (static text) -->
+    <section class="section" id="meta" aria-labelledby="meta-heading">
+      <h2 id="meta-heading">Module & Term</h2>
+      <div class="meta-grid">
+        <div class="meta-item"><strong>Module:</strong> LZSCC. 241 Human-Computer Interaction</div>
+        <div class="meta-item"><strong>Term / Year:</strong> M/2025-2026</div>
+      </div>
     </section>
 
-    <section id="overview" class="text-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">00</span>
-                Furniture Exchange Platform
-            </h2>
-            <div class="text-card">
-                <h3 class="text-card-title">Requirements Gathering Methods &amp; Data Collection</h3>
-                <p>In order to collect the data necessary for thorough analysis, two complementary methods were used,
-                    which most effectively reflect public opinion regarding the question of creating a platform for the
-                    purchase and sale of furniture: semi-structured interviews taken with residents of several
-                    dormitories of Leipzig (Lumis, Basecamp, The Hood, SmartWings), and questionnaires of the residents
-                    of Lumis themselves, who provided different views on the question, based on their own experience of
-                    purchasing or selling things in different dormitories and the problems that arose as a result of
-                    this. These methods made it possible to deepen the given study with diverse, flexible data from
-                    various sources and to identify non-trivial behavioral patterns and motivations.</p>
-                <p>The interview protocol was designed with the goal of systematic collection of data from 8-10
-                    residents of various dormitories with the deliberate selection of 2-3 examples from each identified
-                    category of persons: urgent need to purchase a product, exploratory viewing of purchase-sale offers,
-                    extremely limited means for purchasing a product, occasional sellers. This selection was made with
-                    the goal of covering the widest possible range of user experience and motivation.</p>
-                <p>Each interview lasts 15-20 minutes and takes place in a question-answer format from general topics to
-                    specific ones. In the beginning, taking about 2 minutes, the goals of the research are explained,
-                    its confidentiality is explained, and permission is asked for recording the conversation for further
-                    transcript and analysis. In the course of the conversation, the interview could deviate from the
-                    structure or from the initially set tasks; fragments of the recording in which this happens were not
-                    used in the transcript and review. The transcription of the conversation was carried out with the
-                    help of a program created by the author of this research, written in the programming language Python
-                    with built-in libraries, which ensures accurate translation from oral form to written without loss
-                    of information and words of the speaker.</p>
-            </div>
-        </div>
+    <!-- Team Members (6) -->
+    <section class="section" id="team" aria-labelledby="team-heading">
+      <h2 id="team-heading">Team Members</h2>
+      <div class="team-grid" role="list">
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">B</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">C</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">D</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">E</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+        <article class="person" role="listitem">
+          <div class="avatar" aria-hidden="true">F</div>
+          <div>
+            <div class="name"><strong>First Last</strong></div>
+            <div class="role">Role • <a href="mailto:first.last@example.edu">first.last@lancaster.ac.uk</a></div>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="methods" class="methods-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">01</span>
-                Requirements Gathering Methods &amp; Data Collection
-            </h2>
-            <p class="section-description">Two complementary research streams captured the full range of resident
-                experiences across Lumis, Basecamp, The Hood, and SmartWings. Semi-structured interviews provided rich
-                storytelling on daily pain points, while targeted questionnaires quantified recurring frustrations and
-                desired improvements.</p>
-            <div class="method-cards">
-                <div class="method-card">
-                    <div class="method-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <h3>Method 1: Semi-Structured Interviews</h3>
-                    <p>Eight to ten residents were selected deliberately to represent urgent buyers, exploratory
-                        browsers, students with limited means, and occasional sellers, ensuring wide coverage of
-                        motivations and expectations.</p>
-                    <ul class="method-list">
-                        <li>15-20 minute conversations moved from broad context to specific transactions and
-                            frustrations.</li>
-                        <li>Each participant granted recorded consent so the interview could be transcribed for deeper
-                            analysis.</li>
-                        <li>A Python-based transcription tool created by the researcher delivered accurate, lossless
-                            text for review.</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <div class="method-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Method 2: Online Questionnaire</h3>
-                    <p>A structured survey of Lumis residents quantified how frequently exchanges succeed, which budget
-                        bands are most sensitive, and how existing WhatsApp workflows fall short.</p>
-                    <ul class="method-list">
-                        <li>Seven respondents shared tenure, residency status, and average spending on non-essential
-                            items.</li>
-                        <li>Questions probed satisfaction scores, missed deals, and appetite for a dedicated platform.
-                        </li>
-                        <li>Responses reinforced the need for safe, structured workflows that scale beyond a single
-                            dormitory.</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="method-note">Combining flexible interviews with quantitative questionnaires surfaced non-trivial
-                behavioral patterns, confirmed recurring pain points, and informed the detailed requirements captured
-                below.</p>
-        </div>
+    <!-- Activity 1 -->
+    <section class="section" id="act1" aria-labelledby="act1-heading">
+      <h2 id="act1-heading">Activity 1: Problem Definition</h2>
+      <p class="lead">Template-only section. Embed your concept video below and provide a link to your Problem Definition PDF.</p>
+
+      <!-- Embedded concept video container (replace src with your file or URL) -->
+      <div class="video-frame">
+        <video controls preload="metadata" src="documents/concept-video.mp4" poster="images/video-poster.jpg"></video>
+      </div>
+
+      <div class="doc-link">
+        <span class="label">Problem Definition PDF:</span>
+        <a href="documents/problem-definition.pdf" target="_blank" rel="noopener">problem-definition.pdf</a>
+      </div>
     </section>
 
-    <section id="protocol" class="protocol-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">02</span>
-                Method 1 Interview Protocol
-            </h2>
-            <p class="section-description">Below, in order to avoid repetitions in the future, a general protocol for
-                conducting the interview is presented.</p>
-            <div class="protocol-grid">
-                <div class="protocol-step">
-                    <h3>Introduction (2 minutes)</h3>
-                    <p>"Thank you for participating. This interview will take about 20-25 minutes. We're researching how
-                        Lumis residents buy and sell items, particularly through the WhatsApp group. Your responses are
-                        confidential and will help design a better solution. May I record this for analysis purposes?
-                        [Answer]"</p>
-                </div>
-                <div class="protocol-step">
-                    <h3>Context (3-4 minutes)</h3>
-                    <p>"How long have you lived in Lumis? [Answer]. Are you an exchange student or regular student?
-                        [Answer]. What's your monthly budget for non-essential items? [Answer]."</p>
-                </div>
-                <div class="protocol-step">
-                    <h3>Current Situation (8-10 minutes)</h3>
-                    <p>"Have you ever bought or sold items through the Lumis WhatsApp group? [Answer]. Walk me through
-                        the last time you tried to buy or sell something in the group. What happened? [Answer]. What was
-                        frustrating about that experience? [Answer]. How long did it take from posting to completing the
-                        transaction (or giving up)? [Answer]. Have you ever missed a good deal because you couldn't find
-                        the listing again? Tell me about it. [Answer]. How do you feel when you see buying or selling
-                        messages in the main WhatsApp group? [Answer]."</p>
-                </div>
-                <div class="protocol-step">
-                    <h3>Needs and Preferences (6-8 minutes)</h3>
-                    <p>"What would make buying or selling items easier for you? [Answer]. How important is it that items
-                        are from Lumis residents only versus the broader Leipzig area? [Answer]. Would you pay a small
-                        fee (for example, 1 euro) to list an item if it meant better visibility? Why or why not?
-                        [Answer]. What information do you need to see in a listing before contacting a seller? [Answer].
-                        How do you prefer to communicate with buyers or sellers? (WhatsApp, in-app chat, email?)
-                        [Answer]. What concerns do you have about buying used items from fellow residents? [Answer]."
-                    </p>
-                </div>
-                <div class="protocol-step">
-                    <h3>Comparative Experience (3-4 minutes)</h3>
-                    <p>"Have you used platforms like eBay, Vinted, or Facebook Marketplace? What did you like or
-                        dislike? [Answer]. What features from those platforms would be useful for a Lumis-specific
-                        platform? [Answer]."</p>
-                </div>
-                <div class="protocol-step">
-                    <h3>Conclusion (1 minute)</h3>
-                    <p>"Is there anything else about buying or selling in Lumis that we haven't discussed? [Answer]."
-                    </p>
-                </div>
-            </div>
-        </div>
+    <!-- Activities 2–6 (no uploads; description + embedded/linked docs + URLs) -->
+    <section class="section" aria-labelledby="acts-heading">
+      <h2 id="acts-heading">Activities 2–6</h2>
+      <div class="activities">
+        <!-- Activity 2 -->
+        <article class="card" id="act2" aria-labelledby="act2-heading">
+          <h3 id="act2-heading">Activity 2: Need‑Finding</h3>
+          <p class="desc">Briefly describe your need‑finding process, participants, and key insights. Summarize the data collection methods and the most salient themes discovered.</p>
+          <div class="doc-link"><span class="label">Report PDF:</span> <a href="documents/need-finding.pdf" target="_blank" rel="noopener">need-finding.pdf</a></div>
+          <div class="embed">
+            <iframe title="Need-Finding PDF" src="documents/need-finding.pdf"></iframe>
+          </div>
+        </article>
+
+        <!-- Activity 3 -->
+        <article class="card" id="act3" aria-labelledby="act3-heading">
+          <h3 id="act3-heading">Activity 3: Exploration of Design Alternatives</h3>
+          <p class="desc">Explain your alternative concepts and the rationale behind each direction. Highlight criteria used to compare alternatives and why certain options advanced.</p>
+          <div class="doc-link"><span class="label">Alternatives PDF:</span> <a href="documents/design-alternatives.pdf" target="_blank" rel="noopener">design-alternatives.pdf</a></div>
+          <div class="embed">
+            <iframe title="Design Alternatives" src="documents/design-alternatives.pdf"></iframe>
+          </div>
+        </article>
+
+        <!-- Activity 4 -->
+        <article class="card" id="act4" aria-labelledby="act4-heading">
+          <h3 id="act4-heading">Activity 4: User Experience Design</h3>
+          <p class="desc">Describe your UX flows, information architecture, and interaction patterns. Note any accessibility considerations and design system components.</p>
+          <div class="doc-link"><span class="label">UXD PDF:</span> <a href="documents/ux-design.pdf" target="_blank" rel="noopener">ux-design.pdf</a></div>
+          <div class="embed">
+            <iframe title="User Experience Design" src="documents/ux-design.pdf"></iframe>
+          </div>
+        </article>
+
+        <!-- Activity 5 -->
+        <article class="card" id="act5" aria-labelledby="act5-heading">
+          <h3 id="act5-heading">Activity 5: Prototyping</h3>
+          <p class="desc">Summarize the prototype scope, fidelity, and key scenarios it demonstrates. Mention any technical constraints and what remains out of scope.</p>
+          <div class="doc-link"><span class="label">Figma Prototype URL:</span> <a href="https://www.figma.com/proto/EXAMPLE" target="_blank" rel="noopener">https://www.figma.com/proto/EXAMPLE</a></div>
+
+          <div class="video-frame">
+            <video controls preload="metadata" src="documents/prototype-demo.mp4" poster="images/video-poster.jpg"></video>
+          </div>
+
+          <div class="doc-link"><span class="label">Demo Video URL:</span> <a href="https://example.com/prototype-demo.mp4" target="_blank" rel="noopener">https://example.com/prototype-demo.mp4</a></div>
+        </article>
+
+        <!-- Activity 6 -->
+        <article class="card" id="act6" aria-labelledby="act6-heading">
+          <h3 id="act6-heading">Activity 6: Usability Evaluation</h3>
+          <p class="desc">Provide a concise summary of methods, participants, and the main usability issues identified. Include key metrics and prioritized recommendations.</p>
+          <div class="doc-link"><span class="label">Evaluation PDF:</span> <a href="documents/usability-evaluation.pdf" target="_blank" rel="noopener">usability-evaluation.pdf</a></div>
+          <div class="embed">
+            <iframe title="Usability Evaluation" src="documents/usability-evaluation.pdf"></iframe>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="interviews" class="insights-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">03</span>
-                Interview Reports
-            </h2>
-            <p class="section-description">Individual conversations with residents captured urgent needs, emotional
-                cues, and concrete breakdowns in the current WhatsApp-based exchange process.</p>
-            <div class="interview-grid">
-                <div class="interview-card">
-                    <div class="interview-header">
-                        <div class="interview-name">Pierre</div>
-                        <div class="interview-meta">First-year international student &bull; 23 minutes</div>
-                    </div>
-                    <div class="interview-profile">Pierre is a first-year student living in Lumis whose experience
-                        searching for everyday necessities in the WhatsApp group is overwhelmingly frustrating.</div>
-                    <div class="interview-summary">
-                        <h3>Summary</h3>
-                        <p>Pierre described how a request to buy a frying pan at 14:00 was buried by 15:00 under
-                            hundreds of unrelated messages. Reposting at later times produced the same result, forcing
-                            him to pay higher prices on external marketplaces like Amazon. He called out how a single,
-                            non-categorized chat blends multiple topics, so focused requests disappear almost
-                            immediately.</p>
-                    </div>
-                    <div class="interview-observations">
-                        <h3>Observations</h3>
-                        <p>He displayed visible frustration while scrolling through the chat, mentioned urgency seven
-                            times, and stressed that rapid access to relevant listings is his highest priority.</p>
-                    </div>
-                </div>
-                <div class="interview-card">
-                    <div class="interview-header">
-                        <div class="interview-name">Jose</div>
-                        <div class="interview-meta">Exchange student leaving soon &bull; 26 minutes</div>
-                    </div>
-                    <div class="interview-profile">Jose is preparing to leave Lumis in two months and needs reliable
-                        ways to sell belongings before his departure.</div>
-                    <div class="interview-summary">
-                        <h3>Summary</h3>
-                        <p>Jose's attempt to sell a bookshelf through the WhatsApp group received no responses; when he
-                            reposted, he was accused of spamming and blocked. A potential buyer demanded delivery across
-                            the city, which was impossible. Eventually he abandoned selling altogether and gave
-                            everything away for free, wishing for a simple app where a single listing could stay
-                            discoverable.</p>
-                    </div>
-                    <div class="interview-observations">
-                        <h3>Observations</h3>
-                        <p>He expressed guilt over spamming, shared photographs of unsold items, and repeatedly showed
-                            time pressure tied to his leaving date, highlighting the urgency of an efficient selling
-                            channel.</p>
-                    </div>
-                </div>
-                <div class="interview-card">
-                    <div class="interview-header">
-                        <div class="interview-name">Sandra</div>
-                        <div class="interview-meta">Third-year student with disposable income &bull; 21 minutes</div>
-                    </div>
-                    <div class="interview-profile">Sandra browses out of interest and aesthetics, making purchases based
-                        on visual appeal rather than necessity.</div>
-                    <div class="interview-summary">
-                        <h3>Summary</h3>
-                        <p>She recounted missing a 300 euro AirPods Max listing because it vanished within two hours.
-                            Keyword search produced too many irrelevant results, and the chat format failed to deliver a
-                            "showcase effect." She advocated for a visually rich platform similar to a social feed to
-                            encourage daily browsing.</p>
-                    </div>
-                    <div class="interview-observations">
-                        <h3>Observations</h3>
-                        <p>Sandra lit up when discussing visual shopping experiences, grew irritated by WhatsApp's
-                            search limitations, and repeatedly linked purchasing decisions to aesthetics and
-                            photography.</p>
-                    </div>
-                </div>
-                <div class="interview-card">
-                    <div class="interview-header">
-                        <div class="interview-name">Alexander</div>
-                        <div class="interview-meta">Working student with tight budget &bull; 28 minutes</div>
-                    </div>
-                    <div class="interview-profile">Alexander balances study with work and tracks spending carefully,
-                        requiring transparency and efficiency in second-hand transactions.</div>
-                    <div class="interview-summary">
-                        <h3>Summary</h3>
-                        <p>He labeled existing student trading platforms as slow and unreliable, noting a three-day wait
-                            for a microwave response and listings written without critical details. Price comparison is
-                            essential for him, and he argued that sorting and filtering tools are necessary to stay
-                            within budget.</p>
-                    </div>
-                    <div class="interview-observations">
-                        <h3>Observations</h3>
-                        <p>Alexander referenced a spreadsheet of his expenses, showed visible tension when discussing
-                            overspending, and emphasized how hidden fees or unclear pricing immediately break trust.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Notes -->
+    <section class="section" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">Notes & Folder Structure</h2>
+      <ul>
+        <li>Place PDFs inside <code>/documents/</code> and images (e.g., poster thumbnails) inside <code>/images/</code>.</li>
+        <li>Replace example file names and URLs with your actual assets.</li>
+      </ul>
+      <pre class="folder-structure" aria-label="folder structure">
+project-portfolio/
+├─ index.html
+├─ styles.css
+├─ documents/
+│  ├─ problem-definition.pdf
+│  ├─ need-finding.pdf
+│  ├─ design-alternatives.pdf
+│  ├─ ux-design.pdf
+│  ├─ usability-evaluation.pdf
+│  ├─ concept-video.mp4
+│  └─ prototype-demo.mp4
+└─ images/
+   └─ video-poster.jpg
+      </pre>
     </section>
+  </main>
 
-    <section id="questionnaire" class="questionnaire-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">04</span>
-                Method 2 Online Questionnaire
-            </h2>
-            <p class="section-description">Seven Lumis residents supplied structured responses on tenure, budget,
-                success rates, and expectations for a dedicated exchange platform.</p>
-            <div class="survey-grid">
-                <div class="survey-card">
-                    <h3>Respondent Profile</h3>
-                    <p>Four of the seven respondents have lived in Lumis for at least half a year, indicating meaningful
-                        exposure to existing WhatsApp marketplaces. Most rent their rooms long term, and five of seven
-                        spend no more than 200 euros monthly on non-essential items.</p>
-                    <p>Only around 40 percent of their attempted exchanges in WhatsApp groups succeed, and the overall
-                        satisfaction score averages three out of five, revealing a split between mildly positive and
-                        clearly frustrated experiences.</p>
-                </div>
-                <div class="survey-card">
-                    <h3>Current Pain Points</h3>
-                    <p>Respondents highlighted missing structure and unreliable follow through: buyers cannot locate
-                        items quickly, sellers often fail to reply, and discount opportunities disappear in chat history
-                        without action. Communication breakdowns and organizational chaos were the most frequent
-                        complaints.</p>
-                </div>
-                <div class="survey-card">
-                    <h3>Platform Expectations</h3>
-                    <p>Students overwhelmingly desire a dedicated platform offering speed, safety, and structure. They
-                        prefer convenient search, a well-organized interface, and secure payments within the
-                        application. While most want the service to remain free, a small fee to cover maintenance is
-                        acceptable, and few require it to be limited to a single dormitory.</p>
-                </div>
-                <div class="survey-card">
-                    <h3>Adoption Signals</h3>
-                    <p>Every participant endorsed developing a standalone application or website and expressed
-                        willingness to help test it. The majority want a solution that can scale across Leipzig
-                        residences, mixing social network familiarity with reliable marketplace workflows.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="requirements" class="requirements-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">05</span>
-                Complete Requirements List
-            </h2>
-            <p class="section-description">Based on the results of interviews and surveys, the following functional,
-                non-functional, and usability requirements define the Furniture Exchange Platform.</p>
-
-            <div class="req-category">
-                <div class="req-category-header">
-                    <span class="req-badge functional">F</span>
-                    <h3>Functional Requirements</h3>
-                </div>
-                <div class="req-table">
-                    <div class="req-row">
-                        <div class="req-id">F-01</div>
-                        <div class="req-content">
-                            <h4>Item Listing Management</h4>
-                            <ul class="req-list">
-                                <li>The system shall allow users to create item listings with title, description, price,
-                                    and photos.</li>
-                                <li>Sellers shall be able to upload up to five photos per listing.</li>
-                                <li>The system shall allow users to mark items as "sold" or "available."</li>
-                                <li>Listings shall automatically be removed after thirty days or when marked as sold.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">F-02</div>
-                        <div class="req-content">
-                            <h4>Search and Discovery</h4>
-                            <ul class="req-list">
-                                <li>The system shall provide a search function by item name or an id.</li>
-                                <li>Users shall be able to filter results by category and by price range.</li>
-                                <li>Sorting options must include price.</li>
-                                <li>A browsable feed of all available items shall be displayed.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">F-03</div>
-                        <div class="req-content">
-                            <h4>User Communication</h4>
-                            <ul class="req-list">
-                                <li>App messaging shall be provided between buyers and sellers.</li>
-                                <li>Users shall also be allowed to initiate a new contact.</li>
-                                <li>Seller contact information shall be shown only after the buyer expresses a specific
-                                    interest.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">F-04</div>
-                        <div class="req-content">
-                            <h4>User Management</h4>
-                            <ul class="req-list">
-                                <li>Lumis accommodation shall have an email verification.</li>
-                                <li>User profiles shall be maintained with contact information.</li>
-                                <li>Users shall be able to view their own listing history.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">F-05</div>
-                        <div class="req-content">
-                            <h4>Favorites and Saved Items</h4>
-                            <ul class="req-list">
-                                <li>Users shall be allowed to save specific items to buy later.</li>
-                                <li>The system must notify users when the price of favorite items changes.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">F-06</div>
-                        <div class="req-content">
-                            <h4>Availability and Status</h4>
-                            <ul class="req-list">
-                                <li>Item availability status shall be clearly displayed.</li>
-                                <li>Sellers shall be allowed to mark items as "pending" during negotiations.</li>
-                                <li>Sold items shall be hidden from main search results.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="req-category">
-                <div class="req-category-header">
-                    <span class="req-badge nfr">NFR</span>
-                    <h3>Non-Functional Requirements</h3>
-                </div>
-                <div class="req-table">
-                    <div class="req-row">
-                        <div class="req-id">NFR-01</div>
-                        <div class="req-content">
-                            <h4>Performance</h4>
-                            <ul class="req-list">
-                                <li>The main feed shall load within two seconds on standard mobile internet.</li>
-                                <li>Search results must appear within one second of query submission.</li>
-                                <li>The system shall support up to 500 concurrent users.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">NFR-02</div>
-                        <div class="req-content">
-                            <h4>Usability</h4>
-                            <ul class="req-list">
-                                <li>New users must be able to create their first post within three minutes.</li>
-                                <li>Users must be able to find a specific item using search within thirty seconds.</li>
-                                <li>The system shall be accessible on mobile devices.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">NFR-03</div>
-                        <div class="req-content">
-                            <h4>Reliability</h4>
-                            <ul class="req-list">
-                                <li>The system must maintain 99 percent uptime during peak hours.</li>
-                                <li>User data shall be backed up daily, and photos must be stored reliably without data
-                                    loss.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">NFR-04</div>
-                        <div class="req-content">
-                            <h4>Security</h4>
-                            <ul class="req-list">
-                                <li>Only verified Lumis residents shall access the platform.</li>
-                                <li>User contact information shall be protected until mutual interest is established.
-                                </li>
-                                <li>The system must comply with GDPR data protection requirements.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">NFR-05</div>
-                        <div class="req-content">
-                            <h4>Scalability</h4>
-                            <ul class="req-list">
-                                <li>The system must be designed to scale to other accommodations in Leipzig.</li>
-                                <li>The database shall handle up to 10,000 posts without performance degradation.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">NFR-06</div>
-                        <div class="req-content">
-                            <h4>Cost</h4>
-                            <ul class="req-list">
-                                <li>The platform must be free for buyers to use.</li>
-                                <li>Listing fees, if any, shall not exceed 1 euro per item, and no transaction fees
-                                    shall be charged on completed sales.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="req-category">
-                <div class="req-category-header">
-                    <span class="req-badge ux">UX</span>
-                    <h3>User Experience Requirements</h3>
-                </div>
-                <div class="req-table">
-                    <div class="req-row">
-                        <div class="req-id">UX-01</div>
-                        <div class="req-content">
-                            <h4>Learnability</h4>
-                            <ul class="req-list">
-                                <li>First-time users shall understand core functions without a tutorial.</li>
-                                <li>The system shall provide tooltips for advanced features.</li>
-                                <li>Error messages must be clear and actionable.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">UX-02</div>
-                        <div class="req-content">
-                            <h4>Efficiency</h4>
-                            <ul class="req-list">
-                                <li>Users shall complete a listing creation in a maximum of five clicks.</li>
-                                <li>Search filters shall be accessible within two clicks from the home screen.</li>
-                                <li>Frequent actions must be accessible from the home screen.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">UX-03</div>
-                        <div class="req-content">
-                            <h4>Visual Design</h4>
-                            <ul class="req-list">
-                                <li>The interface shall use a clean, modern design with high contrast.</li>
-                                <li>Item photos must be prominent in listings.</li>
-                                <li>Price shall be immediately visible on listing cards.</li>
-                                <li>The color scheme shall be welcoming and trustworthy.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">UX-04</div>
-                        <div class="req-content">
-                            <h4>Error Prevention</h4>
-                            <ul class="req-list">
-                                <li>The system shall confirm before deleting listings.</li>
-                                <li>Price inputs must be validated.</li>
-                                <li>The system shall prevent duplicate listings within 24 hours.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">UX-05</div>
-                        <div class="req-content">
-                            <h4>Satisfaction</h4>
-                            <ul class="req-list">
-                                <li>The system must provide positive feedback after successful actions.</li>
-                                <li>Empty states shall encourage and guide users to action.</li>
-                                <li>The system must feel faster than scrolling through external messaging apps.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="req-row">
-                        <div class="req-id">UX-06</div>
-                        <div class="req-content">
-                            <h4>Accessibility</h4>
-                            <ul class="req-list">
-                                <li>Text shall meet WCAG AA contrast standards.</li>
-                                <li>Interactive elements shall be a minimum of 50 by 50 pixels.</li>
-                                <li>The system must be navigable using a keyboard only.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="documents" class="documents-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">06</span>
-                Project Documents
-            </h2>
-            <div class="documents-list">
-                <button onclick="openDocument('docs/Activity 1.pdf')">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM13 3.5V9h5.5M12 17v-4m0 0-2 2m2-2 2 2"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                            fill="none" />
-                    </svg>
-                    Open Activity 1.pdf
-                </button>
-
-                <button onclick="openDocument('docs/HCI.pdf')">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM13 3.5V9h5.5M12 17v-4m0 0-2 2m2-2 2 2"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                            fill="none" />
-                    </svg>
-                    Open Activity 2.pdf
-                </button>
-
-                <button onclick="openDocument('docs/Activity 4.pdf')">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    Open Activity 4.pdf
-                </button>
-
-                <button onclick="openDocument('docs/HCI - Activity 6.pdf')">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    Open HCI - Activity 6.pdf
-                </button>
-
-                <button onclick="openDocument('docs/HCI Activity 3 slides.pdf')">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    Open HCI Activity 3 slides.pdf
-                </button>
-
-                <button onclick="openDocument('docs/FurniSwap project.fig')" title="Download .fig">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 3v12M8 11l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    Download FurniSwap project.fig
-                </button>
-
-                <a class="doc-download" href="docs/presentation.mp4" download>
-                    <button>
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 3v12M8 11l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        </svg>
-                        Download presentation.mp4 (video)
-                    </button>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="gallery" class="gallery-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">07</span>
-                Project Slides Gallery
-            </h2>
-            <div class="futuristic-gallery">
-                <img src="slides/HCI Activity 3 slides-1.png" alt="Slide 1" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-2.png" alt="Slide 2" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-3.png" alt="Slide 3" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-4.png" alt="Slide 4" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-5.png" alt="Slide 5" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-6.png" alt="Slide 6" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-7.png" alt="Slide 7" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-8.png" alt="Slide 8" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-9.png" alt="Slide 9" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-10.png" alt="Slide 10" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-11.png" alt="Slide 11" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-12.png" alt="Slide 12" class="gallery-img" />
-                <img src="slides/HCI Activity 3 slides-13.png" alt="Slide 13" class="gallery-img" />
-            </div>
-        </div>
-    </section>
-    <section id="conclusion" class="conclusion-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">06</span>
-                Conclusion
-            </h2>
-            <div class="conclusion-card">
-                <p>As a conclusion of the conducted survey among dormitory residents, both Lumis and others located in
-                    Leipzig, it can be noted that WhatsApp groups are not a safe and convenient tool for the purchase
-                    and sale of personal items, since they do not provide a centralized and understandable platform with
-                    a clear structure.</p>
-                <p>Every survey participant supported the idea of creating a separate application or website where
-                    exchange could be carried out safely, and also expressed willingness to participate in its
-                    development or testing within their available time. Despite the fact that monetization of the
-                    platform is not welcomed by the majority, the possibility of charging a small fee to cover technical
-                    maintenance expenses is allowed.</p>
-                <p>Students want to see a simple, structured, convenient, and safe application combining elements of a
-                    social network and an online store, which would provide efficient exchange of goods and multi-level
-                    communication between users.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="team" class="team-section">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">07</span>
-                Project Participants
-            </h2>
-            <p class="section-description">Team members and contributors who participated in the research and design of
-                the Furniture Exchange Platform.</p>
-
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="avatar">LRM</div>
-                    <div class="member-info">
-                        <h4>Louis Ramon Patrick Manresa</h4>
-                        <p>Student ID: 39583201</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">AS</div>
-                    <div class="member-info">
-                        <h4>Alex Schild</h4>
-                        <p>Student ID: 39605485</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">RK</div>
-                    <div class="member-info">
-                        <h4>Robert Kuleshov</h4>
-                        <p>Student ID: 39583007</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">AF</div>
-                    <div class="member-info">
-                        <h4>Andrei Florea</h4>
-                        <p>Student ID: 39603784</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">LS</div>
-                    <div class="member-info">
-                        <h4>Luca Stroe</h4>
-                        <p>Student ID: 39603644</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">DG</div>
-                    <div class="member-info">
-                        <h4>Dmitry Ganotskiy</h4>
-                        <p>Student ID: 39605973</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <p>Furniture Exchange Platform &copy; 2025 | Research Summary</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-    <script>
-        function openDocument(path) {
-            window.open(path, '_blank');
-        }
-    </script>
+  <footer>
+    <p class="small">© Your Team • Project Submission Portfolio</p>
+  </footer>
 </body>
-
 </html>
