@@ -1,0 +1,13 @@
+<!-- Add this section where you want the document buttons to appear -->
+<section id="documents" class="documents-section">
+  <h2>Project Documents</h2>
+  <div class="documents-list">
+    <button onclick="openDocument('docs/HCI.pdf')">Open HCI.pdf</button>
+    <!-- Add more buttons here as you add more documents to the docs folder -->
+  </div>
+</section>
+<script>
+function openDocument(path) {
+  window.open(path, '_blank');
+}
+</script>
